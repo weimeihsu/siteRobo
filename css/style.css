@@ -554,13 +554,14 @@ a[href*='tel'], a[href*='mailto'] {
 
 .box-icon-modern {
 	text-align: center;
-	max-width: 370px;
+	/* max-width: 370px; */
 	min-height: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 66px 15px 50px;
+	border-radius: 8px;
+	padding: 56px 15px 50px;
 	background: #ffffff;
-	box-shadow: 0 0 13px -4px rgba(0, 0, 0, 0.17);
+	/* box-shadow: 0 0 10px -4px rgba(0, 0, 0, 0.1); */
 	transition: all .3s ease;
 }
 
